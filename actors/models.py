@@ -6,7 +6,7 @@ NATIONALITY_CHOICES = (
 
 )
 
-class actor(models.Model):
+class Actor(models.Model):
     name = models.CharField(max_length=200)
     birthday = models.DateField(null=True, blank=True)
     nationality = models.CharField(
